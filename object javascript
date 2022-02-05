@@ -20,7 +20,7 @@ console.log(Object.keys(obj)); // return object key
 console.log(Object.values(obj)); // return object value
 console.log(Object.entries(obj)); // array object return
 
-var obj3 = Object.assign(obj1);
+var obj3 = Object.assign({},obj1);
 obj3.x=1400;
 
 console.log(obj3);
